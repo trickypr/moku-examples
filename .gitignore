@@ -1,0 +1,7 @@
+# Ignore cached modules at all levels
+__pycache__/
+
+# Ignore outputs from the neural network examples
+neural-network/*.linn
+neural-network/*.h5
+neural-network/*.keras
