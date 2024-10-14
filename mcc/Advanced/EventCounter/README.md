@@ -18,7 +18,7 @@ The parameters of the pulses (minimum and maximum width, minimum height) are con
 The values specific output when the count is and is not exceeded are defined as constants in the code.
 
 ## Registers
-![Timing Diagram](@/docs/api/moku-examples/mcc/event_counter/waveform.png)
+![Timing Diagram](./waveform.png)
 
 |              |                     **Bits**                    ||
 | **Register** | `31-16`                 | `15-0`                |
