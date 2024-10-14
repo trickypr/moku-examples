@@ -10,24 +10,24 @@ If you don't see your language on the list, please reach out to our [Support Eng
 <!-- Keep the below in alphabetical order -->
 
 ## C++
-<<< @/docs/examples/other-languages/MokuDemo.cpp
+<<< @/docs/api/moku-examples/other-language-api/MokuDemo.cpp
 
 ## C#
-<<< @/docs/examples/other-languages/MokuDemo.cs
+<<< @/docs/api/moku-examples/other-language-api/MokuDemo.cs
 
 ## Go
-<<< @/docs/examples/other-languages/go.go
+<<< @/docs/api/moku-examples/other-language-api/go.go
 
 ## Java
-<<< @/docs/examples/other-languages/MokuDemo.java
+<<< @/docs/api/moku-examples/other-language-api/MokuDemo.java
 
 ## Javascript (Node.js)
-<<< @/docs/examples/other-languages/moku-node.js
+<<< @/docs/api/moku-examples/other-language-api/moku-node.js
 
 ## Perl
-<<< @/docs/examples/other-languages/moku-perl.perl
+<<< @/docs/api/moku-examples/other-language-api/moku-perl.perl
 
 ## Rust
-<<< @/docs/examples/other-languages/main.rs
+<<< @/docs/api/moku-examples/other-language-api/main.rs
 
 
