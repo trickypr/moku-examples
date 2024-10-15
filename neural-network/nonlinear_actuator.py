@@ -123,12 +123,13 @@ axs2[0].legend()
 axs2[1].plot(phase, desired_reshaped-actuator_response(nn_out3), label='Desired - W/ NN correction')
 axs2[1].set_xlabel('Time')
 axs2[1].legend()
+plt.show()
 
 # %%
 # ---
 # Step 3: Save the model to disk for use in the Moku Neural Network instrument
 # ---
 
-save_linn(linn_model, input_channels=1, output_channels=1, filename='nonlinear_actuator.linn')
+save_linn(linn_model, input_channels=1, output_channels=1, file_name='nonlinear_actuator.linn')
 
 # %%
