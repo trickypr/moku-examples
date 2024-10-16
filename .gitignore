@@ -5,3 +5,6 @@ __pycache__/
 neural-network/*.linn
 neural-network/*.h5
 neural-network/*.keras
+
+# Ignore MacOS cache files
+.DS_Store
