@@ -24,6 +24,11 @@ sidebarDepth: 1
 <<<@/docs/api/moku-examples/matlab-api/lock_in_amplifier_streaming.matlab
 
 
+## Digital Filter Box
+### digital_filter_box_plotting.m
+<<< @/docs/api/moku-examples/matlab-api/digital_filter_box_plotting.matlab
+
+
 ## Frequency Response Analyzer
 ### frequency_response_analyzer_basic.m
 <<< @/docs/api/moku-examples/matlab-api/frequency_response_analyzer_basic.matlab
@@ -60,7 +65,7 @@ the "platform_id" to one supported by that hardware.
 
 ### mim_wg_sa.m
 
-Multi-instrumemt Mode on Moku:Go (two slot), deploying the Waveform Generator
+Multi-instrument Mode on Moku:Go (two slot), deploying the Waveform Generator
 and Spectrum Analyzer at once. This example is easily ported to Moku:Pro by changing
 the "platform_id" to one supported by that hardware.
 

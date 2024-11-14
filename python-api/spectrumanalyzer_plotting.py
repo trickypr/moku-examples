@@ -33,8 +33,8 @@ try:
     line2, = plt.plot([])
     plt.ion()
     plt.show()
-    plt.grid(b=True)
-    plt.ylim([-2, 2])
+    plt.grid(visible=True)
+    plt.ylim([-120, 20])
     plt.autoscale(axis='x', tight=True)
 
     # Get an initial frame of data to set any frame-specific plot parameters

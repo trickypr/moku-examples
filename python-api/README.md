@@ -11,6 +11,21 @@ This example demonstrates how you can generate and output arbitrary waveforms us
 
 <<< @/docs/api/moku-examples/python-api/arbitrarywavegen_basic.py
 
+## Cloud Compile
+### cloud_compile_adder.py
+
+This example demonstrates how you can configure Cloud Compile, using Multi-Instrument mode to run the 
+[Adder example](https://gitlab.com/liquidinstruments/cloud-compile/examples/-/tree/main/adder)
+
+<<< @/docs/api/moku-examples/python-api/cloud_compile_adder.py
+
+### cloud_compile_arithmetic.py
+
+This example demonstrates how you can configure Cloud Compile, using Multi-Instrument mode to run the 
+[Arithmetic Unit example](https://gitlab.com/liquidinstruments/cloud-compile/examples/-/tree/main/arithmetic_unit)
+
+<<< @/docs/api/moku-examples/python-api/cloud_compile_arithmetic.py
+
 ## Data Logger
 ### datalogger_basic.py
 
@@ -119,7 +134,7 @@ the "platform_id" to one supported by that hardware.
 
 ### mim_wg_sa.py
 
-Multi-instrumemt Mode on Moku:Go (two slot), deploying the Waveform Generator
+Multi-instrument Mode on Moku:Go (two slot), deploying the Waveform Generator
 and Spectrum Analyzer at once. This example is easily ported to Moku:Pro by changing
 the "platform_id" to one supported by that hardware.
 

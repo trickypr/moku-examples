@@ -39,7 +39,7 @@ try:
 
     # Configure the Channel 2 PID Controller using gain characteristics
     #   Overall Gain = 6dB
-    #   I Gain       = 20dB 
+    #   I Gain       = 20dB
     i.set_by_gain(channel=2, overall_gain=6.0, prop_gain=20)
 
     # Set the probes to monitor Output 1 and Output 2
@@ -47,7 +47,7 @@ try:
     i.set_monitor(2, 'Output2')
 
     # Set the timebase
-    i.set_timebase(-1e-3, 1e-3) # +- 1msec
+    i.set_timebase(-1e-3, 1e-3)  # +- 1ms
     i.set_trigger(type='Edge', source='ProbeA', level=0)
 
     # Enable the output channels of the PID controller
@@ -62,7 +62,7 @@ try:
     # Set up the plotting parameters
     plt.ion()
     plt.show()
-    plt.grid(b=True)
+    plt.grid(visible=True)
     plt.ylim([-1, 1])
     plt.xlim([data['time'][0], data['time'][-1]])
 

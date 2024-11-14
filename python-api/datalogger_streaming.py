@@ -17,7 +17,7 @@ try:
     i.generate_waveform(1, "Sine", frequency=100)
 
     # disable Input2 as we want to stream data only from Input1
-    i.disable_channel(2)
+    i.enable_input(2, enable=False)
 
     # set the sample rate to 10KSa/s
     i.set_samplerate(10e3)
@@ -28,7 +28,7 @@ try:
     # Set up the plotting parameters
     plt.ion()
     plt.show()
-    plt.grid(b=True)
+    plt.grid(visible=True)
     plt.ylim([-1, 1])
 
     line1, = plt.plot([])
