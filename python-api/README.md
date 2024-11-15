@@ -211,6 +211,23 @@ instrument and plot its spectrum data in real-time.
 
 <<< @/docs/api/moku-examples/python-api/spectrumanalyzer_plotting.py
 
+## Time and Frequency Analyzer
+### timefrequencyanalyzer_basic.py
+
+This example demonstrates how you can use the Time and Frequency Analyzer instrument to
+to retrieve and view the statistics of the intervals.
+
+
+<<< @/docs/api/moku-examples/python-api/timefrequencyanalyzer_basic.py
+
+### timefrequencyanalyzer_plotting.py
+
+This example demonstrates how you can configure the Time and Frequency Analyzer
+instrument and plot histogram data frames in real-time. 
+
+
+<<< @/docs/api/moku-examples/python-api/timefrequencyanalyzer_plotting.py
+
 
 ## Waveform Generator
 

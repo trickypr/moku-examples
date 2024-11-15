@@ -100,6 +100,13 @@ the "platform_id" to one supported by that hardware.
 ### spectrumanalyzer_plotting.m
 <<< @/docs/api/moku-examples/matlab-api/spectrum_analyzer_plotting.matlab
 
+## Time and Frequency Analyzer
+### timefrequencyanalyzer_basic.m
+<<< @/docs/api/moku-examples/matlab-api/timefrequencyanalyzer_basic.matlab
+
+### timefrequencyanalyzer_plotting.m
+<<< @/docs/api/moku-examples/matlab-api/timefrequencyanalyzer_plotting.matlab
+
 ## Waveform Generator
 ### waveformgenerator_basic.m
 <<< @/docs/api/moku-examples/matlab-api/waveform_generator_basic.matlab
