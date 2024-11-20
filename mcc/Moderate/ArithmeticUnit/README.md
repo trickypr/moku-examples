@@ -4,4 +4,5 @@ This arithmetic unit example can perform addition, subtraction, or multiplicatio
 - 00 represents Input A + Input B;
 - 01 represents Input A – Input B;
 - 10 represents Input A * Input B;
-- 11 will just pass Input A to Output A. 
+- 11 will just pass Input A to Output A.
+
