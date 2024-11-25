@@ -140,6 +140,16 @@ the "platform_id" to one supported by that hardware.
 
 <<< @/docs/api/moku-examples/python-api/mim_wg_sa.py
 
+## Neural Network
+### neuralnetwork_simplesine.py
+
+This script demonstrates how to use the Neural Network instrument to generate a ramp 
+wave and process it through the uploaded neural network, finally viewing the output 
+in the oscilloscope. This uses the network generated in the 
+[Simple Sine wave example](/mnn/examples/Simple_sine)
+
+<<< @/docs/api/moku-examples/python-api/neuralnetwork_simplesine.py
+
 ## Oscilloscope
 ### oscilloscope_basic.py
 
