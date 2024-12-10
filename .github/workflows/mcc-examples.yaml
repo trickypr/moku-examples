@@ -1,0 +1,30 @@
+name: MCC Examples
+
+on: [push, pull_request]
+
+jobs:
+  mcc-examples:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Run lint
+        run: python3 ./mcc/scripts/main.py ./mcc
+      - name: Output results
+        if: always()
+        run: |
+          cat ./mcc/lint.txt >> $GITHUB_STEP_SUMMARY
+          rm -rf ./mcc/lint.txt ./mcc/scripts/
+      - name: Deploy
+        if: github.ref == 'refs/heads/main' && success()
+        uses: shallwefootball/s3-upload-action@master
+        with:
+          source_dir: 'mcc'
+          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_bucket: ${{ secrets.EXAMPLES_BUCKET }}
+          endpoint: s3.localhost.localstack.cloud:4566
+          destination_dir: ''
+
+
+
